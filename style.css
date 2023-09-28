@@ -22,6 +22,31 @@ nav{
     line-height: 7rem;
     box-shadow: 10px 10px 65px 10px  black;
 }
+.btn{
+    margin: 10px;
+    border: none;
+    color: azure;
+    padding: 14px 28px;
+    cursor: pointer;
+    display: inline;
+    font-weight: bold;
+}
+
+.success{background-color: #04aa6d;}
+.success:hover{background-color: #46a049;}
+
+.info{background-color: #2196F3;}
+.info{background-color: #0b7dda;}
+
+.warning{background-color: #ff9800;}
+.warning:hover{background-color: #e68a00;}
+
+.danger{background-color: #f44336;}
+.danger:hover{background-color: #da190d;}
+
+.default{background-color: #e7e7e7; color: black;}
+.default:hover{background: #ddd;}
+
 h2{
     padding: 1rem;
     background-color: #bc4749;
