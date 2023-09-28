@@ -1,0 +1,114 @@
+body{
+    background-color: #333;
+}
+*{
+    box-sizing: border-box;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.btn{
+    margin: 10px;
+    border: none;
+    color: azure;
+    padding: 14px 28px;
+    cursor: pointer;
+    display: inline;
+    font-weight: bold;
+}
+
+.success{background-color: #04aa6d;}
+.success:hover{background-color: #46a049;}
+
+.info{background-color: #2196F3;}
+.info{background-color: #0b7dda;}
+
+.warning{background-color: #ff9800;}
+.warning:hover{background-color: #e68a00;}
+
+.danger{background-color: #f44336;}
+.danger:hover{background-color: #da190d;}
+
+.default{background-color: #e7e7e7; color: black;}
+.default:hover{background: #ddd;}
+
+
+.dropbtn{
+    background-color: #04aa6d;
+    color: whitesmoke;
+    margin-top: 15px;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 16px;
+    border: none;
+    border-radius: 14px;
+    
+    
+
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{background-color: #ddd;}
+.dropdown:hover .dropdown-content{display: block;}
+.dropdown:hover .dropbtn{background-color: #3e8e41;}
+
+
+.bg-image{
+    width: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.images{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+img{
+    max-width: 350px;
+    max-height: 350px;
+}
+.bg-text{
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    border: 10px solid #f1f1f1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: auto;
+    padding: 6px;
+    text-align: center;
+    
+}
+
+
